@@ -1,6 +1,6 @@
 # Abomination
 
-**Abomination** is a Visual Studio solution template designed to seamlessly integrate Rust library development into code that can be called from C/C++ on Windows (x86_64). It sets up a workflow where you write core logic in Rust, expose it via C-style function prototypes, and then consume it in a C++ application.
+**Abomination** is a Visual Studio solution template designed to seamlessly integrate Rust library development into code that can be called from C/C++ on Windows. It sets up a workflow where you write core logic in Rust, expose it via C-style function prototypes, and then consume it in a C++ application. This template supports building 32-bit and 64-bit executables from a 64-bit Windows development environment.
 
 ## Overview
 
