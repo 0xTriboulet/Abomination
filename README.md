@@ -106,6 +106,7 @@ When you finish testing, switch back to a standard C++ configuration (like `Debu
 - The template assumes the Rust static library name and paths are consistent with `Mutations` project settings.
 - Make sure to keep your `#[no_mangle]` and `extern "C"` attributes aligned with any functions you want to expose. The function signature in Rust must match the C prototype in `Rust.h`.
 - Adjust compiler flags, optimization levels, or calling conventions as needed in both the Rust Cargo settings (`Cargo.toml`) and the Visual Studio project properties.
+- **The current template does not support directly debugging Rust code from Visual Studio.**
 
 ## Contributing & Support
 
