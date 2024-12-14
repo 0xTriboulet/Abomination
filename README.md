@@ -89,9 +89,11 @@ This template includes a "Test Rust" configuration. Running it will:
 **How to run Rust tests:**
 
 1. Switch to the `Test Rust` configuration in Visual Studio.
+2. Clean the solution via `Build -> Clean Solution`
 2. Build and run to execute the Rust unit tests directly from within the IDE’s output window.
 
 ![alt text](image.png)
+**You must clean the solution in-between running consecutive rounds of unit testing.**
 
 When you finish testing, switch back to a standard C++ configuration (like `Debug` or `Release`) to continue normal development.
 
