@@ -10,7 +10,7 @@ pub extern "C"  fn add_numbers(left: u64, right: u64) -> u64 {
     left + right
 }
 
-// First class unit test support
+// Unit test support via "Test Rust" configuration
 #[cfg(test)]
 mod tests {
     use super::*;
