@@ -1,0 +1,10 @@
+[package]
+name = "Mutations"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[lib]
+crate-type = ["staticlib"]  # or "cdylib" if you prefer a DLL
