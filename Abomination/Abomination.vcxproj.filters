@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Mutations">
+      <UniqueIdentifier>{fa34a0d1-c52f-4dc9-8adf-519ec9904cb1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Abomination.cpp">
@@ -23,5 +26,10 @@
     <ClInclude Include="Rust.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Mutations\src\lib.rs">
+      <Filter>Source Files\Mutations</Filter>
+    </None>
   </ItemGroup>
 </Project>

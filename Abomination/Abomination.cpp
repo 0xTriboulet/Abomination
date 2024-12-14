@@ -6,13 +6,14 @@
 
 int main()
 {
-    constexpr unsigned int a = 1;
-    constexpr unsigned int b = 2;
+    constexpr unsigned long long a = 2;
+    constexpr unsigned long long b = 3;
 
     unsigned long long c = add_numbers(a, b);
 
     std::cout << "Hello World!\n";
     std::cout << "Output of add:" << c << "\n";
+    std::cout << "Output of mult:" << mult_numbers(a, b) << "\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

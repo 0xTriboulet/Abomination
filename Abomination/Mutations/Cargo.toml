@@ -5,11 +5,6 @@ edition = "2021"
 
 [dependencies]
 
-[profile.release]
-strip = "symbols"
-panic = "abort"
-opt-level = "z"
-lto = true
 
 [lib]
 crate-type = ["staticlib"]  # or "cdylib" if you prefer a DLL
