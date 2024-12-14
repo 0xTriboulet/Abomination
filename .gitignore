@@ -16,11 +16,11 @@ target/
 i686-pc-windows-msvc/
 *.TAG
 
-
 # Binaries
 *.exe
 *.dll
 *.lib
+*.exe.recipe
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
