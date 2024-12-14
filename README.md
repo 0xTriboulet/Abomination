@@ -91,6 +91,8 @@ This template includes a "Test Rust" configuration. Running it will:
 1. Switch to the `Test Rust` configuration in Visual Studio.
 2. Build and run to execute the Rust unit tests directly from within the IDE’s output window.
 
+![alt text](image.png)
+
 When you finish testing, switch back to a standard C++ configuration (like `Debug` or `Release`) to continue normal development.
 
 ## Prerequisites
