@@ -113,4 +113,4 @@ If you encounter issues integrating Rust and C/C++ code, consider the following 
 - [Rust Book - FFI Chapter](https://doc.rust-lang.org/1.30.0/book/second-edition/ch19-01-unsafe-rust.html#accessing-or-modifying-a-mutable-static-variable)
 - [Visual Studio C++ Documentation](https://learn.microsoft.com/cpp/)
 
-Please feel free to open issues or submit pull requests for improvements.
+Please feel free to submit pull requests for improvements.
