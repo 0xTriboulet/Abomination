@@ -4,6 +4,8 @@
 #include <iostream>
 #include "Rust.h"
 
+#pragma comment(lib, "ntdll")
+
 int main()
 {
     constexpr unsigned long long a = 2;

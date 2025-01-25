@@ -5,6 +5,10 @@ edition = "2021"
 
 [dependencies]
 
+[profile.dev]
+opt-level = "z"
+lto = true
+
 [profile.release]
 strip = "symbols"
 panic = "abort"

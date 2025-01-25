@@ -109,10 +109,10 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(SolutionDir)Mutations/target/i686-pc-windows-msvc/release/Mutations.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)Mutations/target/i686-pc-windows-msvc/debug/Mutations.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
-      <Command>cd /d $(SolutionDir)Mutations &amp;&amp; cargo build --target i686-pc-windows-msvc --release</Command>
+      <Command>cd /d $(SolutionDir)Mutations &amp;&amp; cargo build --target i686-pc-windows-msvc</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -168,10 +168,10 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(SolutionDir)Mutations/target/release/Mutations.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)Mutations/target/debug/Mutations.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
-      <Command>cd /d $(SolutionDir)Mutations &amp;&amp; cargo build --release</Command>
+      <Command>cd /d $(SolutionDir)Mutations &amp;&amp; cargo build</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -210,10 +210,10 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(SolutionDir)Mutations/target/release/Mutations.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)Mutations/target/debug/Mutations.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
-      <Command>cd /d $(SolutionDir)Mutations &amp;&amp; cargo clean &amp;&amp; start cmd.exe @cmd /k "cargo test &amp;&amp; pause &amp;&amp; exit" &amp;&amp; cargo build --release</Command>
+      <Command>cd /d $(SolutionDir)Mutations &amp;&amp; cargo clean &amp;&amp; start cmd.exe @cmd /k "cargo test &amp;&amp; pause &amp;&amp; exit" &amp;&amp; cargo build</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

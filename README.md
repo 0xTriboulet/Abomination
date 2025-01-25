@@ -71,7 +71,11 @@ This template is structured into three main parts:
    - Build the solution in Visual Studio. The Rust library will be compiled into a static library, and `Abomination.cpp` will link against it.
    - Run the executable from within Visual Studio or directly from the build output directory.
 
-5. **Add More Rust Source Files**:  
+5. **Debug Directly from Visual Studio**
+![alt text](image-1.png)
+   - Using debug builds allows for debugging of Rust code directly from Visual Studio
+
+6. **Add More Rust Source Files**:  
    If you need more complex Rust modules, add `.rs` files under `Mutations/src` (or a structured layout of your choosing), and reference them from `lib.rs` using Rust’s module system:
    ```rust
    // In lib.rs
@@ -108,7 +112,6 @@ When you finish testing, switch back to a standard C++ configuration (like `Debu
 - The template assumes the Rust static library name and paths are consistent with `Mutations` project settings.
 - Make sure to keep your `#[no_mangle]` and `extern "C"` attributes aligned with any functions you want to expose. The function signature in Rust must match the C prototype in `Rust.h`.
 - Adjust compiler flags, optimization levels, or calling conventions as needed in both the Rust Cargo settings (`Cargo.toml`) and the Visual Studio project properties.
-- **The current template does not support directly debugging Rust code from Visual Studio.**
 
 ## Contributing & Support
 
