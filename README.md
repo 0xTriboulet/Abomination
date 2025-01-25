@@ -72,6 +72,7 @@ This template is structured into three main parts:
    - Run the executable from within Visual Studio or directly from the build output directory.
 
 5. **Debug Directly from Visual Studio**
+
 ![alt text](image-1.png)
    - Using debug builds allows for debugging of Rust code directly from Visual Studio
 
