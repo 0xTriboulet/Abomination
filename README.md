@@ -73,7 +73,7 @@ This template is structured into three main parts:
 
 5. **Debug Directly from Visual Studio**
 
-![alt text](image-1.png)
+![alt text](image-2.png)
    - Using debug builds allows for debugging of Rust code directly from Visual Studio
 
 6. **Add More Rust Source Files**:  
